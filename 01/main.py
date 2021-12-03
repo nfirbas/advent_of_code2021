@@ -15,4 +15,4 @@ if __name__ == "__main__":
     data = [int(x) for x in f.readlines()]
     f.close()
     solve(data, 1)
-    solve(data, 3)
+    solve(data, 3) 
