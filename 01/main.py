@@ -8,7 +8,7 @@ def value(data, i, x):
     value = 0
     for j in range(x):
         value += data[i-j]
-    return valuecd
+    return value
 
 if __name__ == "__main__":
     f = open("./input.txt", "r")
