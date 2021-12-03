@@ -15,6 +15,7 @@ def solve(f):
     print(aim * forward)
     print(depth * forward)
 
+
 if __name__ == "__main__":
     f = open("./input.txt", "r")
     solve(f)
