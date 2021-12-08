@@ -42,7 +42,6 @@ def solve_second(boards, guesses):
                 del boards[check_win(boards)]
             else: 
                 print(guess * get_whining_board_sum(0, boards))
-                print(boards)
                 return
 
 if __name__ == "__main__":
